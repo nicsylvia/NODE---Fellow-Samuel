@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@types/node": "^18.11.5",
+    "nodemon": "^2.0.20",
+    "ts-node-dev": "^2.0.0"
+  },
+  "name": "fellowsamuel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only ./crudWednesday.ts",
+    "work": "node ./test.ts"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
+}
